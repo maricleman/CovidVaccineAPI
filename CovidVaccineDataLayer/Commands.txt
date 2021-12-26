@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Connection "Server=(localdb)\MSSQLLocalDB;Database=VaccineResearch;Trusted_Connection=True;" -Provider Microsoft.EntityFrameworkCore.SqlServer -Project CovidVaccineDataLayer  -OutputDir EntityModels -ContextDir DbContexts -Context CovidVaccineDbContext -Tables VAERSData, VAERSSymptoms, VAERSVax, vwCovidVaccineData

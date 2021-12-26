@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidVaccineAPI", "CovidVaccineAPI\CovidVaccineAPI.csproj", "{F546BE92-B883-4FFB-A1BC-71E19ED34ECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "60 APIs", "60 APIs", "{4EDD2C05-79EE-4693-9B0E-2504220BAC40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "30 BusinessLogic", "30 BusinessLogic", "{2125C667-CA89-496C-A0A2-403DE61E7521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "20 DataLayer", "20 DataLayer", "{40F8F0B5-B23B-4C14-B91D-68886D9326C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidVaccineBusinessLogic", "CovidVaccineBusinessLogic\CovidVaccineBusinessLogic.csproj", "{D540B0C5-F83A-46CB-A4D2-9B4D2E737962}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidVaccineDataLayer", "CovidVaccineDataLayer\CovidVaccineDataLayer.csproj", "{3B76D3C6-9E5C-4D40-8CA3-06F07174696C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Models", "00 Models", "{02536985-246F-48D8-9732-CC83AD489C17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CovidVaccineModels", "CovidVaccineModels\CovidVaccineModels.csproj", "{B585A4A5-F007-45FA-8ED6-476E67B12818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F546BE92-B883-4FFB-A1BC-71E19ED34ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F546BE92-B883-4FFB-A1BC-71E19ED34ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F546BE92-B883-4FFB-A1BC-71E19ED34ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F546BE92-B883-4FFB-A1BC-71E19ED34ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D540B0C5-F83A-46CB-A4D2-9B4D2E737962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D540B0C5-F83A-46CB-A4D2-9B4D2E737962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D540B0C5-F83A-46CB-A4D2-9B4D2E737962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D540B0C5-F83A-46CB-A4D2-9B4D2E737962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B76D3C6-9E5C-4D40-8CA3-06F07174696C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B76D3C6-9E5C-4D40-8CA3-06F07174696C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B76D3C6-9E5C-4D40-8CA3-06F07174696C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B76D3C6-9E5C-4D40-8CA3-06F07174696C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B585A4A5-F007-45FA-8ED6-476E67B12818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B585A4A5-F007-45FA-8ED6-476E67B12818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B585A4A5-F007-45FA-8ED6-476E67B12818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B585A4A5-F007-45FA-8ED6-476E67B12818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F546BE92-B883-4FFB-A1BC-71E19ED34ECC} = {4EDD2C05-79EE-4693-9B0E-2504220BAC40}
+		{D540B0C5-F83A-46CB-A4D2-9B4D2E737962} = {2125C667-CA89-496C-A0A2-403DE61E7521}
+		{3B76D3C6-9E5C-4D40-8CA3-06F07174696C} = {40F8F0B5-B23B-4C14-B91D-68886D9326C2}
+		{B585A4A5-F007-45FA-8ED6-476E67B12818} = {02536985-246F-48D8-9732-CC83AD489C17}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D04441BA-0A97-47C5-A4A5-21D1D28AE986}
+	EndGlobalSection
+EndGlobal
